@@ -308,14 +308,14 @@ body::after {
 .message-group .avatar-large[style*='/a_'] + .comment .user-name::after {
     content: "Nitro";
 }
-.avatar-small[style*='238858513210802176'] + .member-inner .member-username-inner::after,
-.guild-settings-modal-members .avatar-small[style*='238858513210802176'] + .member-inner .member-username::after,
-.avatar-popout[style*='238858513210802176']::after,
-.avatar-profile[style*='238858513210802176']::after,
-.message-group .avatar-large[style*='238858513210802176'] + .comment .user-name::after {
+.avatar-small[style*='144881947557101568'] + .member-inner .member-username-inner::after,
+.guild-settings-modal-members .avatar-small[style*='144881947557101568'] + .member-inner .member-username::after,
+.avatar-popout[style*='144881947557101568']::after,
+.avatar-profile[style*='144881947557101568']::after,
+.message-group .avatar-large[style*='144881947557101568'] + .comment .user-name::after {
     content: "Developer";
 }
-.avatar-profile[style*='238858513210802176']::after {
+.avatar-profile[style*='144881947557101568']::after {
     content: "Developer";
 }
 .avatar-small[style*='81388395867156480'] + .member-inner .member-username-inner::after,
