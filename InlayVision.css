@@ -327,7 +327,7 @@ body::after {
     content: "Dev";
 }
 .avatar-profile[style*='238858513210802176']::after {
-    content: "DEV";
+    content: "DEVELOPER";
 }
 .avatar-small[style*='81388395867156480'] + .member-inner .member-username-inner::after,
 .guild-settings-modal-members .avatar-small[style*='81388395867156480'] + .member-inner .member-username::after,
