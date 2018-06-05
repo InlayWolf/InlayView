@@ -1,10 +1,21 @@
-
 /* "ClearVision CSS v5.2.4" by @Zerthox */
 /* Based on "Discord Reborn v4.30" by @Omniscient & "DarkMatter" by @Hammock */
 
+/* Import Fixes by Dani */
+@import url(https://omgdani.github.io/ClearVisionFixes/ClearVisionFixes.css);
+
 /* BACKGROUND, LOADING ANIMATIONS & DEV MARK BY ZERTHOX */
 /*
-
+________/\\\\\\\\\__/\\\\\\_________________________________________________/\\\________/\\\______________________________________________________
+ _____/\\\////////__\////\\\________________________________________________\/\\\_______\/\\\______________________________________________________
+  ___/\\\/______________\/\\\________________________________________________\//\\\______/\\\___/\\\_______________/\\\_____________________________
+   __/\\\________________\/\\\________/\\\\\\\\___/\\\\\\\\\_____/\\/\\\\\\\___\//\\\____/\\\___\///___/\\\\\\\\\\_\///______/\\\\\_____/\\/\\\\\\___
+    _\/\\\________________\/\\\______/\\\/////\\\_\////////\\\___\/\\\/////\\\___\//\\\__/\\\_____/\\\_\/\\\//////___/\\\___/\\\///\\\__\/\\\////\\\__
+      _\//\\\_______________\/\\\_____/\\\\\\\\\\\____/\\\\\\\\\\__\/\\\___\///_____\//\\\/\\\_____\/\\\_\/\\\\\\\\\\_\/\\\__/\\\__\//\\\_\/\\\__\//\\\_
+       __\///\\\_____________\/\\\____\//\\///////____/\\\/////\\\__\/\\\_____________\//\\\\\______\/\\\_\////////\\\_\/\\\_\//\\\__/\\\__\/\\\___\/\\\_
+        ____\////\\\\\\\\\__/\\\\\\\\\__\//\\\\\\\\\\_\//\\\\\\\\/\\_\/\\\______________\//\\\_______\/\\\__/\\\\\\\\\\_\/\\\__\///\\\\\/___\/\\\___\/\\\_
+         _______\/////////__\/////////____\//////////___\////////\//__\///________________\///________\///__\//////////__\///_____\/////_____\///____\///__
+*/
 .channels-wrap > [class*="container"]:last-child::after {
     content: "ClearVision v5.2.5";
     color: #fff;
@@ -141,8 +152,8 @@ body::after {
     animation: cv-init 3s ease-in-out;
 }
 :root {
-    --load1: "Loading system";
-    --load2: "Powering on";
+    --load1: "Loading system...";
+    --load2: "Powering on...";
     --load3: "Fully activated";
 }
 @-webkit-keyframes cv-init {
@@ -308,15 +319,15 @@ body::after {
 .message-group .avatar-large[style*='/a_'] + .comment .user-name::after {
     content: "Nitro";
 }
-.avatar-small[style*='238858513210802176'] + .member-inner .member-username-inner::after,
-.guild-settings-modal-members .avatar-small[style*='238858513210802176'] + .member-inner .member-username::after,
-.avatar-popout[style*='238858513210802176']::after,
-.avatar-profile[style*='238858513210802176']::after,
-.message-group .avatar-large[style*='238858513210802176'] + .comment .user-name::after {
-    content: "Developer";
+.avatar-small[style*='144881947557101568'] + .member-inner .member-username-inner::after,
+.guild-settings-modal-members .avatar-small[style*='144881947557101568'] + .member-inner .member-username::after,
+.avatar-popout[style*='144881947557101568']::after,
+.avatar-profile[style*='144881947557101568']::after,
+.message-group .avatar-large[style*='144881947557101568'] + .comment .user-name::after {
+    content: "CV Dev";
 }
-.avatar-profile[style*='238858513210802176']::after {
-    content: "Developer";
+.avatar-profile[style*='144881947557101568']::after {
+    content: "ClearVision DEV";
 }
 .avatar-small[style*='81388395867156480'] + .member-inner .member-username-inner::after,
 .guild-settings-modal-members .avatar-small[style*='81388395867156480'] + .member-inner .member-username::after,
@@ -328,18 +339,18 @@ body::after {
 .avatar-profile[style*='81388395867156480']::after {
     content: "BetterDiscord DEV";
 }
-.avatar-small[style*='238858513210802176'] + .member-inner .member-username,
+.avatar-small[style*='144881947557101568'] + .member-inner .member-username,
 .avatar-small[style*='81388395867156480'] + .member-inner .member-username {
     position: relative;
 }
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,
 .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after,
 .message-group .avatar-large[style*='/a_'] + .comment .user-name::after,
-.avatar-small[style*='238858513210802176'] + .member-inner .member-username-inner::after,
-.guild-settings-modal-members .avatar-small[style*='238858513210802176'] + .member-inner .member-username::after,
-.avatar-popout[style*='238858513210802176']::after,
-.avatar-profile[style*='238858513210802176']::after,
-.message-group .avatar-large[style*='238858513210802176'] + .comment .user-name::after,
+.avatar-small[style*='144881947557101568'] + .member-inner .member-username-inner::after,
+.guild-settings-modal-members .avatar-small[style*='144881947557101568'] + .member-inner .member-username::after,
+.avatar-popout[style*='144881947557101568']::after,
+.avatar-profile[style*='144881947557101568']::after,
+.message-group .avatar-large[style*='144881947557101568'] + .comment .user-name::after,
 .avatar-small[style*='81388395867156480'] + .member-inner .member-username-inner::after,
 .guild-settings-modal-members .avatar-small[style*='81388395867156480'] + .member-inner .member-username::after,
 .avatar-popout[style*='81388395867156480']::after,
@@ -362,9 +373,9 @@ body::after {
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,
 .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after,
 .message-group .avatar-large[style*='/a_'] + .comment .user-name::after,
-.avatar-small[style*='238858513210802176'] + .member-inner .member-username-inner::after,
-.guild-settings-modal-members .avatar-small[style*='238858513210802176'] + .member-inner .member-username::after,
-.message-group .avatar-large[style*='238858513210802176'] + .comment .user-name::after,
+.avatar-small[style*='144881947557101568'] + .member-inner .member-username-inner::after,
+.guild-settings-modal-members .avatar-small[style*='144881947557101568'] + .member-inner .member-username::after,
+.message-group .avatar-large[style*='144881947557101568'] + .comment .user-name::after,
 .avatar-small[style*='81388395867156480'] + .member-inner .member-username-inner::after,
 .guild-settings-modal-members .avatar-small[style*='81388395867156480'] + .member-inner .member-username::after,
 .message-group .avatar-large[style*='81388395867156480'] + .comment .user-name::after {
@@ -374,12 +385,12 @@ body::after {
     margin-left: 6px;
 }
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,
-.avatar-small[style*='238858513210802176'] + .member-inner .member-username-inner::after,
+.avatar-small[style*='144881947557101568'] + .member-inner .member-username-inner::after,
 .avatar-small[style*='81388395867156480'] + .member-inner .member-username-inner::after {
     top: -1px;
     font-size: 11px;
 }
-.avatar-popout[style*='238858513210802176']::after,
+.avatar-popout[style*='144881947557101568']::after,
 .avatar-popout[style*='81388395867156480']::after {
     padding: 3px;
     font-size: 15px;
@@ -389,7 +400,7 @@ body::after {
     -webkit-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
 }
-.avatar-popout[style*='238858513210802176']:hover::after,
+.avatar-popout[style*='144881947557101568']:hover::after,
 .avatar-popout[style*='81388395867156480']:hover::after {
     color: #fff;
     font-size: 20px;
@@ -397,7 +408,7 @@ body::after {
     top: 2.5%;
     right: -25%;
 }
-.avatar-profile[style*='238858513210802176']::after,
+.avatar-profile[style*='144881947557101568']::after,
 .avatar-profile[style*='81388395867156480']::after {
     background: rgba(0, 0, 0, 0.3);
     padding: 3px;
@@ -466,7 +477,16 @@ a:hover,
 
 /* BASE CSS BY OMNISCIENT & HAMMOCK (EDITED BY ZERTHOX) */
 /*
-
+_______/\\\\\________________________________________________________________________________________________________________________________
+ _____/\\\///\\\______________________________________________________________________________________________________________________________
+  ___/\\\/__\///\\\_____________________________________/\\\_____________________________/\\\________________________________________/\\\______
+   __/\\\______\//\\\____/\\\\\__/\\\\\____/\\/\\\\\\___\///___/\\\\\\\\\\_____/\\\\\\\\_\///______/\\\\\\\\___/\\/\\\\\\__________/\\\\\\\\\\\_
+    _\/\\\_______\/\\\__/\\\///\\\\\///\\\_\/\\\////\\\___/\\\_\/\\\//////____/\\\//////___/\\\___/\\\/////\\\_\/\\\////\\\________\////\\\////__
+     _\//\\\______/\\\__\/\\\_\//\\\__\/\\\_\/\\\__\//\\\_\/\\\_\/\\\\\\\\\\__/\\\_________\/\\\__/\\\\\\\\\\\__\/\\\__\//\\\__________\/\\\______
+      __\///\\\__/\\\____\/\\\__\/\\\__\/\\\_\/\\\___\/\\\_\/\\\_\////////\\\_\//\\\________\/\\\_\//\\///////___\/\\\___\/\\\__________\/\\\_/\\__
+       ____\///\\\\\/_____\/\\\__\/\\\__\/\\\_\/\\\___\/\\\_\/\\\__/\\\\\\\\\\__\///\\\\\\\\_\/\\\__\//\\\\\\\\\\_\/\\\___\/\\\__/\\\____\//\\\\\___
+        ______\/////_______\///___\///___\///__\///____\///__\///__\//////////_____\////////__\///____\//////////__\///____\///__\///______\/////____
+*/
 .slider-bar {
     background: rgba(0, 0, 0, 0.44);
 }
