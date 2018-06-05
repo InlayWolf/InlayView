@@ -324,7 +324,7 @@ body::after {
 .avatar-popout[style*='238858513210802176']::after,
 .avatar-profile[style*='238858513210802176']::after,
 .message-group .avatar-large[style*='238858513210802176'] + .comment .user-name::after {
-    content: "Dev";
+    content: "Developer";
 }
 .avatar-profile[style*='238858513210802176']::after {
     content: "DEVELOPER";
