@@ -324,10 +324,10 @@ body::after {
 .avatar-popout[style*='238858513210802176']::after,
 .avatar-profile[style*='238858513210802176']::after,
 .message-group .avatar-large[style*='238858513210802176'] + .comment .user-name::after {
-    content: "Developer";
+    content: "CV Dev";
 }
 .avatar-profile[style*='238858513210802176']::after {
-    content: "DEVELOPER";
+    content: "ClearVision Dev";
 }
 .avatar-small[style*='81388395867156480'] + .member-inner .member-username-inner::after,
 .guild-settings-modal-members .avatar-small[style*='81388395867156480'] + .member-inner .member-username::after,
