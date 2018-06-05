@@ -339,18 +339,18 @@ body::after {
 .avatar-profile[style*='81388395867156480']::after {
     content: "BetterDiscord DEV";
 }
-.avatar-small[style*='144881947557101568'] + .member-inner .member-username,
+.avatar-small[style*='238858513210802176'] + .member-inner .member-username,
 .avatar-small[style*='81388395867156480'] + .member-inner .member-username {
     position: relative;
 }
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,
 .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after,
 .message-group .avatar-large[style*='/a_'] + .comment .user-name::after,
-.avatar-small[style*='144881947557101568'] + .member-inner .member-username-inner::after,
-.guild-settings-modal-members .avatar-small[style*='144881947557101568'] + .member-inner .member-username::after,
-.avatar-popout[style*='144881947557101568']::after,
-.avatar-profile[style*='144881947557101568']::after,
-.message-group .avatar-large[style*='144881947557101568'] + .comment .user-name::after,
+.avatar-small[style*='238858513210802176'] + .member-inner .member-username-inner::after,
+.guild-settings-modal-members .avatar-small[style*='238858513210802176'] + .member-inner .member-username::after,
+.avatar-popout[style*='238858513210802176']::after,
+.avatar-profile[style*='238858513210802176']::after,
+.message-group .avatar-large[style*='238858513210802176'] + .comment .user-name::after,
 .avatar-small[style*='81388395867156480'] + .member-inner .member-username-inner::after,
 .guild-settings-modal-members .avatar-small[style*='81388395867156480'] + .member-inner .member-username::after,
 .avatar-popout[style*='81388395867156480']::after,
@@ -373,9 +373,9 @@ body::after {
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,
 .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after,
 .message-group .avatar-large[style*='/a_'] + .comment .user-name::after,
-.avatar-small[style*='144881947557101568'] + .member-inner .member-username-inner::after,
-.guild-settings-modal-members .avatar-small[style*='144881947557101568'] + .member-inner .member-username::after,
-.message-group .avatar-large[style*='144881947557101568'] + .comment .user-name::after,
+.avatar-small[style*='238858513210802176'] + .member-inner .member-username-inner::after,
+.guild-settings-modal-members .avatar-small[style*='238858513210802176'] + .member-inner .member-username::after,
+.message-group .avatar-large[style*='238858513210802176'] + .comment .user-name::after,
 .avatar-small[style*='81388395867156480'] + .member-inner .member-username-inner::after,
 .guild-settings-modal-members .avatar-small[style*='81388395867156480'] + .member-inner .member-username::after,
 .message-group .avatar-large[style*='81388395867156480'] + .comment .user-name::after {
@@ -385,12 +385,12 @@ body::after {
     margin-left: 6px;
 }
 .avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,
-.avatar-small[style*='144881947557101568'] + .member-inner .member-username-inner::after,
+.avatar-small[style*='238858513210802176'] + .member-inner .member-username-inner::after,
 .avatar-small[style*='81388395867156480'] + .member-inner .member-username-inner::after {
     top: -1px;
     font-size: 11px;
 }
-.avatar-popout[style*='144881947557101568']::after,
+.avatar-popout[style*='238858513210802176']::after,
 .avatar-popout[style*='81388395867156480']::after {
     padding: 3px;
     font-size: 15px;
@@ -400,7 +400,7 @@ body::after {
     -webkit-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
 }
-.avatar-popout[style*='144881947557101568']:hover::after,
+.avatar-popout[style*='238858513210802176']:hover::after,
 .avatar-popout[style*='81388395867156480']:hover::after {
     color: #fff;
     font-size: 20px;
@@ -408,7 +408,7 @@ body::after {
     top: 2.5%;
     right: -25%;
 }
-.avatar-profile[style*='144881947557101568']::after,
+.avatar-profile[style*='238858513210802176']::after,
 .avatar-profile[style*='81388395867156480']::after {
     background: rgba(0, 0, 0, 0.3);
     padding: 3px;
